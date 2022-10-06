@@ -9,7 +9,7 @@ export default function Reviews() {
             <div id="reviews-container">
                 <div className="review-card">
                 </div>
-                <div class="form">
+                <div className="form">
                     <h3>Satisfied with our service?</h3>
                     <form id="comment-form" className="comment-form">
                     Name: <br/><input type="text" name="name" placeholder="Your name?" id="client-name" required /> <br/> <br/>

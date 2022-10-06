@@ -8,10 +8,12 @@ export default function Booking() {
         <div>
         <section id="booking">
         <h2>Book Appointment</h2>
-        <div class="form"><h3>Click on a Date and Pick an Available TimeSlot</h3></div>
-        <button id="book">Book Appointment</button> 
+        <div className="form"><h3>Click on a Date and Pick an Available TimeSlot</h3></div>
+        <button id="book">Book Appointment</button> <br/> <br/>
+        {/* <button id="book">Payment</button> */}
+        <Pay /> 
         </section>
-        <hr></hr>
+        <hr />
         </div>
     )
 }
