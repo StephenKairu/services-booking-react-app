@@ -6,7 +6,9 @@ export default function Reviews() {
     return (
         <div className="reviews">
             <h2>Our Customers Say...</h2>
- 
+            <div id="reviews-container">
+                <div class="review-card">
+                </div>
                 <div class="form">
                     <h3>Satisfied with our service?</h3>
                     <form id="comment-form" class="comment-form">
@@ -17,7 +19,7 @@ export default function Reviews() {
                     <button type="submit" id="submit-button">Submit Review</button>
                     </form>
                 </div>
-              
+            </div>    
         </div>
     );
 }
