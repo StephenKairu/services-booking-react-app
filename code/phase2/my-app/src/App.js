@@ -6,7 +6,7 @@ import Services from "./components/Services";
 import Booking from "./components/Booking";
 import Reviews from "./components/Reviews";
 // import Pay from "./components/Pay";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 
 
@@ -22,7 +22,7 @@ function App() {
         <Route path="/booking" element={<Booking />} />
         <Route path="/reviews" element={<Reviews />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
 
 
 

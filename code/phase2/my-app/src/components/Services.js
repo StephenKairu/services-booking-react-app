@@ -1,19 +1,54 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
+import StyleImages from "./StyleImage";
+// import DyeImage from "./DyeImage";
 
 export default function Services() {
+    const [images, setImages] = useState([]);
+    const styleImageAPI = "https://api.pexels.com/v1/search?query=barbershop";
+    // const dyeImageAPI = "https://api.pexels.com/v1/search?query=hairdye";
+    const pexelAuth = "563492ad6f9170000100000183d0e0c8cced43af8b10aa4391e5752b";
+    
+    useEffect(() => {
+        fetch (styleImageAPI, {
+            headers: {Authorization: pexelAuth}
+        })
+            .then(res => res.json())
+            .then(image => setImages(image.photos))
+    }
+    , [])
+
+
+   
+
+    // useEffect(() => {
+    //     fetch (dyeImageAPI, {
+    //         headers: {Authorization: pexelAuth}
+    //     })
+    //         .then(res => res.json())
+    //         .then(image => setImages(image))
+    // }
+    // , [])
+
+    // function renderStyleImages () {
+    //     fetch (styleImageAPI, {
+    //         headers: {Authorization: pexelAuth}
+    //     })
+    //         .then(res => res.json())
+    //         .then(image => setImages(image))
+    // }
+
+    // function renderDyeImages () {
+    //     fetch (dyeImageAPI, {
+    //         headers: {Authorization: pexelAuth}
+    //     })
+    //         .then(res => res.json())
+    //         .then(image => setImages(image))
+    // }
 
     return(
         <div>
-            <h2>Our Services</h2>
-            <h3>Top Hair Styles</h3>
-            <div className="display_images" id="container">
-            </div>
-            <div>
-            <h3 id="dye">Hair Dye Services</h3>
-            </div>
-            <div id="hair-dye" className="display_images">
-            </div>
+            <StyleImages images={images} />
+            {/* <DyeImage dyeImages={renderDyeImages} /> */}
         </div>
     )
 }
