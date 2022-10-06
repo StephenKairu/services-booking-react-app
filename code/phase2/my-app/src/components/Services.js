@@ -8,17 +8,19 @@ export default function Services() {
     // const dyeImageAPI = "https://api.pexels.com/v1/search?query=hairdye";
     const pexelAuth = "563492ad6f9170000100000183d0e0c8cced43af8b10aa4391e5752b";
     
-    useEffect(() => {
-        fetch (styleImageAPI, {
-            headers: {Authorization: pexelAuth}
-        })
-            .then(res => res.json())
-            .then(image => setImages(image.photos))
-    }
-    , [])
+    // useEffect(() => {
+    //     fetch (styleImageAPI, {
+    //         headers: {Authorization: pexelAuth}
+    //     })
+    //         .then(res => res.json())
+    //         .then(image => setImages(image.photos))
+    // }
+    // , [])
 
 
-   
+    // function handleLike () {
+    //     h
+    // }
 
     // useEffect(() => {
     //     fetch (dyeImageAPI, {
