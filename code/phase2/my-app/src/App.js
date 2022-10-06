@@ -1,13 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import Services from "./components/Services";
+import Booking from "./components/Booking";
+import Reviews from "./components/Reviews";
+// import Pay from "./components/Pay";
+import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
+
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/contact-us" element={<Footer />} />
+      </Routes>
+
+
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +39,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
