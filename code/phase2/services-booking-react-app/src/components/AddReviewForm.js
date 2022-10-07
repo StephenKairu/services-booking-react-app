@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 
-export default function AddReview ({handleNewReview}) {
+export default function AddReviewForm ({handleNewReview}) {
     const [formData,setFormData]=useState({
         name:"",
         email: "",
@@ -42,11 +42,11 @@ export default function AddReview ({handleNewReview}) {
                 </div>
                 <div className="form">
                     <h3>Satisfied with our service?</h3>
-                    <form onSubmit={handleSaveReview} onChange={handleChange} className="comment-form">
-                    Name: <br/><input value={formData.name} type="text" name="name" placeholder="Your name?" className="client-name" required /> <br/> <br/>
-                    Email: <br/><input value={formData.email} type="email" name="email" placeholder="Your email won't be published" className="email-input" required /> <br/><br/>
+                    <form onSubmit={handleSaveReview} className="comment-form">
+                    Name: <br/><input value={formData.name} onChange={handleChange} type="text" name="name" placeholder="Your name?" className="client-name" required /> <br/> <br/>
+                    Email: <br/><input value={formData.email} onChange={handleChange} type="email" name="email" placeholder="Your email won't be published" className="email-input" required /> <br/><br/>
                     Comment: <br/>
-                    <textarea value={formData.body} name="body" className="client-text" cols="30" rows="6" placeholder="Leave a review..." required></textarea><br/><br/>
+                    <textarea value={formData.body} onChange={handleChange} name="body" className="client-text" cols="30" rows="6" placeholder="Leave a review..." required></textarea><br/><br/>
                     <button type="submit" className="submit-button">Submit Review</button>
                     </form>
                 </div>

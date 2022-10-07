@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ReviewCard({ review:{name, body }, likeItem}) {
+export default function ReviewCard({ review:{name, body }}) {
 
     return(
         <div>
@@ -13,8 +13,8 @@ export default function ReviewCard({ review:{name, body }, likeItem}) {
       </div>
       <h3>My Name is {name}</h3>
       <p>{body}</p>
-      <p class="like">Like <span class="like-glyph" onClick={likeItem()}>&#x2661;</span></p>
-    
+      <p className="like">Like <span className="like-glyph" >&#x2661;</span></p>
+      {/* onClick={likeItem()} */}
         </div>
     )
 }
