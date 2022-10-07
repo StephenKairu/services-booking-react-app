@@ -1,4 +1,5 @@
 {
+  "homepage": "https://stephenkairu.github.io/services-booking-react-app",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +16,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "homepage": "https://stephenkairu.github.io/services-booking-react-app/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
