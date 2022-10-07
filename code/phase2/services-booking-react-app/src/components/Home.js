@@ -3,8 +3,7 @@ import React from "react";
 
 export default function Home() {
     return (
-        <div>
-            <p>Hello World</p>
+        <div className="about">
             <div>
             <h2>Who we are:</h2>
             {/* <img src="" alt="" /> */}
