@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# Services Booking React App
+
+##### By Stephen Kairu 
+### This is a description of my Services Booking React App project.
+
+[Live Demo Link](https://stephenkairu.github.io/services-booking-react-app/)
+
+## Table of Content
+
++ [Description](#description)
++ [Installation](#installation)
++ [Technology Used](#technology-used)
++ [Reference](#reference)
++ [Licence](#licence)
++ [Authors Info](#authors-info)
+
+## Description
+<p>This is a single-page website application that allows users to view empty time-slots to book in advance appointments for a service in a barbershop at their most suitable time. Users are also able to view images of various hairstyles, the staff at work and add their comments and reviews of the service directly on the page.</p>
+
+[Live Demo Link](https://stephenkairu.github.io/services-booking-react-app/)
+
+## Installation
+
+### Requirements
+
+* Either a computer,phone,tablet or an Ipad
+
+* An access to the Internet
+
+### Installation Process
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -43,28 +72,58 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+[Go Back to the top](#services-booking-react-app)
+## Technology Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Reactjs Libraries - Were used in developing the front-end.
 
-### Analyzing the Bundle Size
+* HTML - which was used to build the structure of the pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* CSS - which was used to style and beautify the page.
 
-### Making a Progressive Web App
+* Javascript - which was used to add interactivity to the website.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Tailwind CSS - which was used for further styling of the website.
 
-### Advanced Configuration
+* It has incorporated fetching of the sample images and comments from public APIs i.e. Pexels, Paypal and jsonplaceholder.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Reference
+* Materialize CSS
 
-### Deployment
+[Go Back to the top](#services-booking-react-app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Licence
 
-### `npm run build` fails to minify
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) [2022] [Stephen Kairu]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Go Back to the top](#services-booking-react-app)
+
+## Authors Info
+
+Email - [Stephen Kairu](kairunjoroge1@gmail.com)
+
+LinkedIn - [Stephen Kairu](https://www.linkedin.com/in/stephen-kairu-54a4bb17a/)
+
+[Go Back to the top](#services-booking-react-app)
+
