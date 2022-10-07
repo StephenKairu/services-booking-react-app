@@ -1,6 +1,6 @@
 {
   "homepage": "https://stephenkairu.github.io/services-booking-react-app",
-  "name": "my-app",
+  "name": "services-booking-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
