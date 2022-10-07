@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AddReview from "./AddReview";
 import ReviewCard from "./ReviewCard"
 
-export default function Reviews() {
+export default function Reviews({handleNewReview}) {
 
     const [reviews, setReviews] = useState();
 
@@ -15,8 +15,9 @@ export default function Reviews() {
 
     return (
         <div className="reviews">
-            <ReviewCard />
-            <AddReview />   
+            {reviews.map((review, id) => (
+					<ReviewCard key={review.id} review={review} />))}
+            <AddReview handleNewReview={handleNewReview} reviews={reviews}/>   
         </div>
     );
 }
