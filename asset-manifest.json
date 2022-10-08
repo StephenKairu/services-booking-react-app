@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/services-booking-react-app/static/css/main.f2ee4f6c.css",
-    "main.js": "/services-booking-react-app/static/js/main.68b617c0.js",
+    "main.js": "/services-booking-react-app/static/js/main.e167351c.js",
     "static/js/787.237b2d91.chunk.js": "/services-booking-react-app/static/js/787.237b2d91.chunk.js",
     "static/media/BarbershopLogo.jpg": "/services-booking-react-app/static/media/BarbershopLogo.308064e43432bfa2d577.jpg",
     "static/media/Barberseat.jpg": "/services-booking-react-app/static/media/Barberseat.49dbf7270826c6b0831a.jpg",
     "index.html": "/services-booking-react-app/index.html",
     "main.f2ee4f6c.css.map": "/services-booking-react-app/static/css/main.f2ee4f6c.css.map",
-    "main.68b617c0.js.map": "/services-booking-react-app/static/js/main.68b617c0.js.map",
+    "main.e167351c.js.map": "/services-booking-react-app/static/js/main.e167351c.js.map",
     "787.237b2d91.chunk.js.map": "/services-booking-react-app/static/js/787.237b2d91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2ee4f6c.css",
-    "static/js/main.68b617c0.js"
+    "static/js/main.e167351c.js"
   ]
 }
