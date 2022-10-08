@@ -36,7 +36,6 @@ export default function AddReviewForm ({handleNewReview}) {
 
     return (
         <div className="reviews">
-            <h2>Our Customers Say...</h2>
             <div id="reviews-container">
                 <div className="review-card">
                 </div>

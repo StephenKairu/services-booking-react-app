@@ -30,6 +30,7 @@ export default function Reviews() {
 
     return (
         <div className="reviews">
+            <h2>Our Customers Say...</h2>
             {reviews.map((review) => (
 					<ReviewCard key={review.id} review={review} />))}
             <AddReviewForm handleNewReview={handleNewReview} reviews={reviews}/>   

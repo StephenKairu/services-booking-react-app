@@ -130,7 +130,7 @@ h3 {
   padding-top: 2%;
   font-size: x-large;
   text-align: center;
-  color: rgb(155, 112, 5);
+  color: rgb(192, 141, 11);
   text-decoration: none;
 }
 .about div p{
@@ -233,6 +233,7 @@ a:hover i{
     padding: 2rem;
     box-shadow: rgba(119, 4, 4, 0.35) 0px 5px 15px;
 }
+
 .form {
     background-color: white;
     width: 60%;
