@@ -1,0 +1,316 @@
+/* .App {
+  text-align: center;
+  background-color: rgb(23, 5, 39);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+    background-color: rgb(23, 5, 39);
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+}
+#home {
+    text-decoration: underline;
+    color: goldenrod;
+}
+.header{
+    padding:2rem 9%;
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(61, 52, 63);
+    height: 6%;
+}
+
+.header .navbar a:hover{
+    color: goldenrod;
+}
+.navbar {
+    /* width: 100%;
+    height: 12%;
+    display: flex;
+    flex: row;
+    justify-content: space-between; */
+    text-align: center;
+    /* background:rgb(61, 52, 63); */
+    height: 0%;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#logo {
+    width: 20%;
+    height: 20%;
+}
+.banner{
+    margin-top: 6%;
+    /* background: url(./images/Barber1.jpg); */
+    background-size: cover;
+    height: 100vh;
+}
+.banner a{
+    width: 150px;
+    border: 0.5px solid white;
+    margin: 0 10px;
+    color: white;
+    padding: 12px 0;
+    z-index: 1;
+    position: relative;
+    transition: color 0.5s;
+}
+
+.about {
+    margin-top: 3%;
+    background-size: 50%;
+    height: 100vh;
+    margin-bottom: 8%;
+}
+.about img{
+    width: 50%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    padding-top: 2%;
+    font-size: xx-large;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+}
+h3 {
+  padding-top: 2%;
+  font-size: x-large;
+  text-align: center;
+  color: rgb(155, 112, 5);
+  text-decoration: none;
+}
+.about div p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    width: 70%;
+    margin-bottom: 3%;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.prices {
+    font-size: large;
+    background-color: white;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+a i{
+    padding-right: .5rem;
+    color: goldenrod;
+}
+a:hover i{
+    padding-right:2rem;
+}
+
+.display_images{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap:18px;
+}
+.display_images img 
+{
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    cursor: pointer;
+}
+#dye {
+    margin-top: 2%;
+}
+
+.like {
+    color: white;
+    font-weight: 600;
+}
+.review-card .like{
+    color: rgb(10, 10, 134);
+    font-weight: 600;
+}
+.like-glyph {
+    cursor: pointer;
+  }
+
+.activated-heart {
+    color: red;
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+#booking {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/* .schedular {
+    background-color: rgb(76, 214, 12);
+    width: 100%;
+} */
+
+#reviews {
+    margin-bottom: 5%;
+}
+.stars i{
+    color: rgb(236, 176, 24);
+    font-size: 1.5rem;
+}
+.card {
+    background-color: white;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 2rem;
+    box-shadow: rgba(119, 4, 4, 0.35) 0px 5px 15px;
+}
+.form {
+    background-color: white;
+    width: 60%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5rem;
+    padding-bottom: 2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form h3{
+    color: goldenrod;
+    background-color:rgb(23, 5, 39);
+    font-size: x-large;
+    border-radius: .5rem;
+    width: 45%;
+    padding: 1%;
+    text-align: center;
+}
+.review-input {
+    width: 300px;
+}
+button {
+    background-color: rgb(23, 5, 39);
+    border-radius: .5rem;
+    padding: 2%;
+    cursor: pointer;
+    color: white;
+}
+button a:hover {
+    padding-right:2rem;
+    cursor: pointer;
+    background-color: ;
+}
+.btn {
+    margin-top: 20%;
+    margin-left: 3%;
+    color: goldenrod;
+    font-weight: 600;
+    background-color: rgb(23, 5, 39);
+}
+
+.footer {
+    color: goldenrod;
+    background-color:  rgba(245, 234, 234, 0.1);
+
+}
+.footer .box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:2rem;
+    background-color: rgb(23, 5, 39);
+}
+
+.footer .box-container .footer-links h3{
+    font-size: x-large;
+    padding: 1rem 0;
+    text-decoration: underline;
+}
+
+.footer .box-container .footer-links a{
+    display: block;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 0;
+    text-decoration: none;
+}
+
+.footer .box-container .footer-links a i{
+    padding-right: .5rem;
+    color: rgb(128, 107, 39);
+}
+
+.footer .box-container .footer-links a:hover i{
+    padding-right:2rem;
+}
+
