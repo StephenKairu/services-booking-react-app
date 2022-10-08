@@ -46,7 +46,7 @@ export default function AddReviewForm ({handleNewReview}) {
                     Email: <br/><input value={formData.email} onChange={handleChange} type="email" name="email" placeholder="Your email won't be published" className="email-input" required /> <br/><br/>
                     Comment: <br/>
                     <textarea value={formData.body} onChange={handleChange} name="body" className="client-text" cols="30" rows="6" placeholder="Leave a review..." required></textarea><br/><br/>
-                    <button type="submit" className="submit-button">Submit Review</button>
+                    <button type="submit" className="buttn">Submit Review</button>
                     </form>
                 </div>
             </div>    

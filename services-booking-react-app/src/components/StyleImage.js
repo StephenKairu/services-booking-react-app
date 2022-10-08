@@ -5,7 +5,6 @@ export default function StyleImages() {
     const [images, setImages] = useState([]);
 
     const styleImageAPI = "https://api.pexels.com/v1/search?query=barbershop";
-    // const dyeImageAPI = "https://api.pexels.com/v1/search?query=hairdye";
     const pexelAuth = "563492ad6f9170000100000183d0e0c8cced43af8b10aa4391e5752b";
     
     useEffect(() => {

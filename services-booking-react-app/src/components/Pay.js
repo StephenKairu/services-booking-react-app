@@ -5,11 +5,11 @@ export default function Pay () {
     const [checkout, setCheckout] = useState(false);
 
     return (
-        <div className="App">
+        <div className="pay">
             {checkout ? (
                 <Paypal />
             ) : (
-                <button 
+                <button className="buttn"
                 onClick={() => {
                     setCheckout(true);
                 }}

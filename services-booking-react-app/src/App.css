@@ -1,34 +1,3 @@
-/* .App {
-  text-align: center;
-  background-color: rgb(23, 5, 39);
-}
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -66,17 +35,11 @@ a {
     height: 6%;
 }
 
-.header .navbar a:hover{
+.navbar a:hover{
     color: goldenrod;
 }
 .navbar {
-    /* width: 100%;
-    height: 12%;
-    display: flex;
-    flex: row;
-    justify-content: space-between; */
     text-align: center;
-    /* background:rgb(61, 52, 63); */
     height: 0%;
 }
 .navbar a{
@@ -84,11 +47,14 @@ a {
     text-decoration: none;
     font-weight: 600;
 }
-
-#logo {
+.navbar a::after{
+    color: goldenrod;
+    text-decoration: underline;
+}
+/* .logo {
     width: 20%;
     height: 20%;
-}
+} */
 .banner{
     margin-top: 6%;
     /* background: url(./images/Barber1.jpg); */
@@ -109,7 +75,6 @@ a {
 .about {
     margin-top: 3%;
     background-size: 50%;
-    height: 100vh;
     margin-bottom: 8%;
 }
 .about1{
@@ -140,7 +105,7 @@ h3 {
   color: rgb(192, 141, 11);
   text-decoration: none;
 }
-.about div p{
+.about p{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -192,7 +157,6 @@ a:hover i{
 #dye {
     margin-top: 2%;
 }
-
 .like {
     color: blue;
     font-weight: 600;
@@ -201,10 +165,6 @@ a:hover i{
     color: rgb(10, 10, 134);
     font-weight: 600;
 }
-.like-glyph {
-    cursor: pointer;
-  }
-
 .activated-heart {
     background-color: red;
     font-weight: 500;
@@ -212,18 +172,6 @@ a:hover i{
     color: red;
   }
 
-#booking {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-/* .schedular {
-    background-color: rgb(76, 214, 12);
-    width: 100%;
-} */
-
-#reviews {
-    margin-bottom: 5%;
-}
 .stars i{
     color: rgb(236, 176, 24);
     font-size: 1.5rem;
@@ -267,13 +215,17 @@ a:hover i{
 .review-input {
     width: 300px;
 }
-/* button {
-    background-color: rgb(23, 5, 39);
+
+.buttn {
+    margin-top: 1%;
+    background-color: goldenrod;
     border-radius: .5rem;
     padding: 2%;
     cursor: pointer;
-    color: white;
-} */
+    color: rgb(255, 254, 251);
+    font-weight: 600;
+    font-size: large;
+}
 button a:hover {
     padding-right:2rem;
     cursor: pointer;
@@ -292,6 +244,8 @@ button a:hover {
 }
 
 .footer {
+    margin-top: 5%;
+    bottom: 0%;
     color: goldenrod;
     background-color:  rgba(245, 234, 234, 0.1);
 
