@@ -11,7 +11,8 @@ export default function Booking() {
         <h2>Book Appointment</h2>
         <div className="book"><h3>Click on a Date and Pick an Available TimeSlot</h3></div>
         <Calendly/>
-        {/* <button id="book">Book Appointment</button> <br/> <br/> */}
+        {/* <button id="book">Book Appointment</button>  */}
+        <br/> <br/>
         {/* <button id="book">Payment</button> */}
         <Pay /> 
         </section>

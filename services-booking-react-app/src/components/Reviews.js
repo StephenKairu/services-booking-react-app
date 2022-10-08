@@ -24,7 +24,7 @@ export default function Reviews() {
 		
 // 	};
 	const handleNewReview = (review) => {
-		setReviews([...Reviews, review]);
+		setReviews([...reviews, review]);
 	};
 
 
