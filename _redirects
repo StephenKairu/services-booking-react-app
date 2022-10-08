@@ -1,0 +1,6 @@
+# Redirects from what the browser requests to what we serve
+/home               /
+/services           /services
+/booking            /booking
+/reviews            /reviews
+/contact-us          /footer
