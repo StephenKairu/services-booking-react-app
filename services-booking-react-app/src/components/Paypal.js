@@ -5,12 +5,12 @@ export default function Paypal() {
     const paypal = useRef();
     useEffect(() => {
         window.paypal.Buttons({
-            createOrder: ( actions) => {
+            createOrder: (data, actions, err) => {
                 return actions.order.create({
                     intent: "CAPTURE",
                     purchase_units: [
                         {
-                            description: "30min Shave",
+                            description: "An Elegant Shave",
                             amount: {
                                 value: 10.00
                             }
@@ -18,7 +18,7 @@ export default function Paypal() {
                     ]
                 })
             }, 
-            onApprove: async ( actions) => {
+            onApprove: async (data, actions) => {
                 const order = await actions.order.capture()
                 console.log(order);
             },
@@ -26,7 +26,7 @@ export default function Paypal() {
                 console.log(err)
             }
         }).render(paypal.current)
-    }, [paypal])
+    }, [])
     return (
         <div>
             <div ref={paypal}></div>
