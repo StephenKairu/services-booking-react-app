@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/services-booking-react-app/static/css/main.9a8c8722.css",
-    "main.js": "/services-booking-react-app/static/js/main.ec3a47da.js",
-    "static/js/787.28cb0dcd.chunk.js": "/services-booking-react-app/static/js/787.28cb0dcd.chunk.js",
+    "main.js": "/services-booking-react-app/static/js/main.c3754351.js",
+    "static/js/787.237b2d91.chunk.js": "/services-booking-react-app/static/js/787.237b2d91.chunk.js",
     "static/media/logo.svg": "/services-booking-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/services-booking-react-app/index.html",
     "main.9a8c8722.css.map": "/services-booking-react-app/static/css/main.9a8c8722.css.map",
-    "main.ec3a47da.js.map": "/services-booking-react-app/static/js/main.ec3a47da.js.map",
-    "787.28cb0dcd.chunk.js.map": "/services-booking-react-app/static/js/787.28cb0dcd.chunk.js.map"
+    "main.c3754351.js.map": "/services-booking-react-app/static/js/main.c3754351.js.map",
+    "787.237b2d91.chunk.js.map": "/services-booking-react-app/static/js/787.237b2d91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a8c8722.css",
-    "static/js/main.ec3a47da.js"
+    "static/js/main.c3754351.js"
   ]
 }
