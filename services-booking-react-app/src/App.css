@@ -3,7 +3,7 @@
   background-color: rgb(23, 5, 39);
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -27,7 +27,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -36,7 +36,7 @@
   to {
     transform: rotate(360deg);
   }
-} */
+} 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -112,9 +112,16 @@ a {
     height: 100vh;
     margin-bottom: 8%;
 }
-.about img{
-    width: 50%;
-    height: 30%;
+.about1{
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about2{
+    width: 80%;
+    height: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -280,8 +287,8 @@ button a:hover {
     cursor: pointer;
     margin-top: 5%;
     margin-left: 3%;
-    color: rgb(71, 55, 55);
-    font-weight: 300;
+    color: rgb(23, 5, 39);
+    font-weight: 500;
 }
 
 .footer {

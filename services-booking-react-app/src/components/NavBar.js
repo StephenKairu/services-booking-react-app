@@ -6,7 +6,6 @@ import Logo from '../assets/images/BarbershopLogo.jpg'
 export default function NavBar() {
 return (
     <div className="navbar">
-        {/* <img src={Logo} className="logo" /> */}
         <ul>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/services">Services</NavLink>

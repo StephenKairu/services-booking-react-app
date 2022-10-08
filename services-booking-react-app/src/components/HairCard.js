@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 
 
  const ImgCard = ({image}) => {
@@ -12,7 +12,7 @@ import React from "react";
             setLikeActive(true)
         }
     }
-    
+
     return (
         <div className="image-div" key={image.id}>
               <img src={image.src.large} />
