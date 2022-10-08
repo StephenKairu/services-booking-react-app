@@ -187,7 +187,7 @@ a:hover i{
 }
 
 .like {
-    color: white;
+    color: blue;
     font-weight: 600;
 }
 .review-card .like{
@@ -199,9 +199,10 @@ a:hover i{
   }
 
 .activated-heart {
-    color: red;
-    font-weight: 600;
+    background-color: red;
+    font-weight: 500;
     font-size: x-large;
+    color: red;
   }
 
 #booking {
@@ -259,24 +260,28 @@ a:hover i{
 .review-input {
     width: 300px;
 }
-button {
+/* button {
     background-color: rgb(23, 5, 39);
     border-radius: .5rem;
     padding: 2%;
     cursor: pointer;
     color: white;
-}
+} */
 button a:hover {
     padding-right:2rem;
     cursor: pointer;
-    background-color: ;
+    background-color: greenyellow;
 }
 .btn {
-    margin-top: 20%;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5%;
     margin-left: 3%;
-    color: goldenrod;
-    font-weight: 600;
-    background-color: rgb(23, 5, 39);
+    color: rgb(71, 55, 55);
+    font-weight: 300;
 }
 
 .footer {

@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function ReviewCard({ review:{name, body }}) {
+
+    const [likeActive, setLikeActive] = useState(false)
+
+    function liked () {
+        if(likeActive) {
+            setLikeActive(false)
+        } else{
+            setLikeActive(true)
+        }
+    }
 
     return(
         <div className="card">
@@ -13,8 +23,7 @@ export default function ReviewCard({ review:{name, body }}) {
       </div>
       <h3>My Name is {name}</h3>
       <p>{body}</p>
-      <p className="like">Like <span className="like-glyph" >&#x2661;</span></p>
-      {/* onClick={likeItem()} */}
+      <button onClick={liked} className={[likeActive ? 'activated-heart': null, 'btn'].join(' ')} >Like &#x2661;</button>
         </div>
     )
 }

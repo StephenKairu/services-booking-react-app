@@ -1,13 +1,23 @@
 import React from "react";
 
 
- const ImgCard = ({image, handleLike}) => {
+ const ImgCard = ({image}) => {
 
+    const [likeActive, setLikeActive] = useState(false)
+
+    function liked () {
+        if(likeActive) {
+            setLikeActive(false)
+        } else{
+            setLikeActive(true)
+        }
+    }
+    
     return (
         <div className="image-div" key={image.id}>
               <img src={image.src.large} />
-              <p className="like">Like <span className="like-glyph" onClick={() => handleLike()}>&#x2661;</span></p>
-         </div>
+              <button onClick={liked} className={[likeActive ? 'activated-heart': null, 'btn'].join(' ')} >Like &#x2661;</button>
+        </div>
          )
 }
 
