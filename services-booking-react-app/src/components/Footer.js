@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <div className="footer">
-        <div class="box-container">
+        <div className="box-container">
 
             <div className="footer-links">
                 <h3>Quick links</h3>
@@ -13,7 +13,7 @@ export default function Footer() {
                 <Link to="/services"> <i className="fas fa-chevron-right"></i> Services </Link>
                 <Link to="/booking"> <i className="fas fa-chevron-right"></i> Booking </Link>
                 <Link to="/reviews"> <i className="fas fa-chevron-right"></i> Review </Link>
-                <Link to="/contact-us"> <i classname="fas fa-chevron-right"></i> Contact Us </Link>
+                <Link to="/contact-us"> <i className="fas fa-chevron-right"></i> Contact Us </Link>
             </div>
     
             <div className="footer-links">
