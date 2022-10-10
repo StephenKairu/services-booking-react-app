@@ -27,22 +27,6 @@ export default function Reviews() {
 		setReviews([...reviews, review]);
 	};
 
-
-//     let EMPTY_HEART = '♡'
-// let FULL_HEART = '♥'
-
-// const likeItem = (e) => {
-//   e = e || window.event
-//   console.log({e});
-//  let like = e.target;
-//   if (like.innerHTML == EMPTY_HEART) {
-//     like.innerHTML = FULL_HEART;
-//     like.className = "activated-heart";
-//   } else if (like.innerText == FULL_HEART) {
-//     like.innerHTML = EMPTY_HEART;
-//   }
-// }
-
     return (
         <div className="reviews">
             <h2>Our Customers Say...</h2>
